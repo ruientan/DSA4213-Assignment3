@@ -7,7 +7,7 @@
 | `hatespeech` | Explicit hate or abuse toward identity groups |
 
 # Dataset: HateXplain
-**Source:** [HateXplain](https://github.com/hate-alert/HateXplain) 
+**Source:** [HateXplain] (https://github.com/hate-alert/HateXplain) 
 
 ## Experimental Setup
 All experiments were performed in **Google Colab (GPU runtime)** using the Hugging Face Transformers library.
@@ -72,11 +72,14 @@ Download both `dataset.json` and `post_id_divisions.json` and place them inside 
 ---
 
 ## Repository Structure
+```
 DSA4213-Assignment3/
 │
 ├── RaineTan_Assignment3.ipynb     # Main Colab notebook (code only)
 ├── requirements.txt               # Dependencies
 ├── README.md                      # Project overview and usage
 ├── dataset.json                   # HateXplain dataset 
-├── post_id_divisions.json
-└── artifacts/                     # Saved comparison tables & plots
+└── post_id_divisions.json
+```
+
+---
