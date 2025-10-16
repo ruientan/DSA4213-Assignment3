@@ -1,7 +1,7 @@
 # DSA4213 Assignment 3
 
 ## Motivation of Dataset
-The dataset used is HateXplain, a publicly available benchmark for hate speech and offensive language detection. HateXplain contains textual social media posts annotated by three human annotators, along with explanations highlighting the rationales behind their decisions. Each post is labelled as Normal, Offensive or Hate speech, enabling multi-class classification. The dataset comprises roughly 19,000 instances across training, validation, and test splits. Each entry includes both the post text and a consensus label derived from annotator votes.
+The dataset used is HateXplain, a publicly available benchmark for hate speech and offensive language detection. HateXplain contains textual social media posts annotated by three human annotators, along with explanations highlighting the rationales behind their decisions. Each post is labelled as **Normal**, **Offensive** or **Hate speech**, enabling multi-class classification. The dataset comprises roughly 19,000 instances across training, validation, and test splits. Each entry includes both the post text and a consensus label derived from annotator votes.
 
 Hate speech detection is a relatively challenging NLP task as hate speech often overlaps with sarcasm, slang, and implicit bias. HateXplain is chosen as it is one of the few datasets with human-annotated explanations, offering deeper interpretability of model behaviour beyond simple classification. It also provides multi-class labels, which allows evaluation of a model’s ability to capture nuanced linguistic aggression. Moreover, the dataset’s relatively balanced label distribution makes it suitable for fair model comparison without additional data resampling. 
 
