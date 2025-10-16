@@ -1,0 +1,19 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+
+# Ignore model checkpoints, cache, and large temp files
+runs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.safetensors
+*.pt
+*.bin
+artifacts/
